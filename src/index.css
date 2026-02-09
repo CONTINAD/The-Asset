@@ -1,8 +1,13 @@
 @import "tailwindcss";
 
 @theme {
-  --color-ass-orange: #ff8c00;
-  --color-ass-dark: #1a1a1a;
+  /* Lightning Theme Variables */
+  --color-ass-primary: #9d4edd;
+  /* Electric Purple */
+  --color-ass-accent: #ffea00;
+  /* Lightning Yellow */
+  --color-ass-dark: #0f0014;
+  /* Deep Purple/Black */
 
   --animate-shake: shake 0.5s cubic-bezier(.36, .07, .19, .97) both;
   --animate-bounce-custom: bounce 2s infinite;
