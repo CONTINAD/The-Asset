@@ -1,6 +1,7 @@
 import Hero from './components/Hero';
 import About from './components/About';
 import Tokenomics from './components/Tokenomics';
+import BuyBackBot from './components/BuyBackBot';
 import Footer from './components/Footer';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <Hero />
       <About />
       <Tokenomics />
+      <BuyBackBot />
       <Footer />
     </div>
   );
