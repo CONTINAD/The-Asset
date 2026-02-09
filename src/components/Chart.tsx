@@ -7,7 +7,7 @@ export default function Chart() {
                 </h2>
                 <div className="w-full h-[600px] border-4 border-ass-primary rounded-xl overflow-hidden shadow-[0_0_30px_rgba(247,147,26,0.5)]">
                     <iframe
-                        src="https://dexscreener.com/solana/0000000000000000000000000000000000000000?embed=1&theme=dark"
+                        src="https://dexscreener.com/solana/H7oNrjmLRjeUm1fZpsVaDDGqSzsr5JPXgsj55dA1pump?embed=1&theme=dark"
                         width="100%"
                         height="100%"
                         style={{ border: 0 }}
