@@ -1,4 +1,4 @@
-import logo from '../assets/logo.png';
+const logo = "/logo.png";
 
 export default function Footer() {
     return (

@@ -1,4 +1,5 @@
-import logo from '../assets/logo.png';
+// import logo from '../assets/logo.png';
+const logo = "/logo.png"; // Serving from public/logo.png
 
 export default function Hero() {
     return (
