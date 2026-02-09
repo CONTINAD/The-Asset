@@ -19,7 +19,7 @@ export default function Footer() {
                     </a>
                 </div>
                 <p className="text-gray-600 font-mono text-sm">
-                    © {new Date().getFullYear()} $AssAsset. All rights reserved. <br />
+                    © {new Date().getFullYear()} $Asset. All rights reserved. <br />
                     <span className="text-[10px] opacity-50">Not financial advice. Don't be an idiot.</span>
                 </p>
             </div>

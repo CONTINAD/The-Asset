@@ -23,7 +23,7 @@ export default function Hero() {
             </div>
 
             <h1 className="text-6xl md:text-9xl font-black text-transparent bg-clip-text bg-gradient-to-r from-ass-primary via-white to-ass-primary transform -skew-x-12 mt-8 drop-shadow-[0_0_15px_rgba(247,147,26,0.8)] p-3">
-                $AssAsset
+                $Asset
             </h1>
 
             <p className="text-xl md:text-3xl text-gray-200 font-bold mt-4 max-w-2xl px-4 uppercase tracking-widest drop-shadow-md">
