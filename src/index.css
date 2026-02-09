@@ -1,19 +1,53 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
-@layer base {
-  body {
-    @apply bg-ass-dark text-white font-sans;
+@theme {
+  --color-ass-orange: #ff8c00;
+  --color-ass-dark: #1a1a1a;
+
+  --animate-shake: shake 0.5s cubic-bezier(.36, .07, .19, .97) both;
+  --animate-bounce-custom: bounce 2s infinite;
+
+  @keyframes shake {
+
+    10%,
+    90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+
+    20%,
+    80% {
+      transform: translate3d(2px, 0, 0);
+    }
+
+    30%,
+    50%,
+    70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+
+    40%,
+    60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }
+
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+
+    100% {
+      transform: translateX(-50%);
+    }
   }
 }
 
-/* Custom scrolling marquee animation */
-@keyframes scroll {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
+@utility animate-scroll {
+  animation: scroll 20s linear infinite;
 }
 
-.animate-scroll {
-  animation: scroll 20s linear infinite;
+body {
+  background-color: var(--color-ass-dark);
+  color: white;
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }

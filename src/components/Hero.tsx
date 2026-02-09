@@ -1,4 +1,5 @@
-import logo from '../assets/logo.png'; // Make sure to place the file as src/assets/logo.png
+// import logo from '../assets/logo.png'; // Make sure to place the file as src/assets/logo.png
+const logo = "https://placehold.co/400x400/ff8c00/ffffff?text=$ASS";
 
 export default function Hero() {
     return (
@@ -12,9 +13,6 @@ export default function Hero() {
                     src={logo}
                     alt="$AssAsset Logo"
                     className="w-64 h-64 md:w-96 md:h-96 object-contain drop-shadow-[0_0_35px_rgba(255,140,0,0.8)] mx-auto"
-                    onError={(e) => {
-                        e.currentTarget.src = "https://placehold.co/400x400/ff8c00/ffffff?text=$ASS"; // Fallback
-                    }}
                 />
             </div>
 
