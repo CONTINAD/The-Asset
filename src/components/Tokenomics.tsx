@@ -33,7 +33,7 @@ export default function Tokenomics() {
                 <div className="mt-16 text-center">
                     <div className="inline-block bg-ass-primary/10 border border-ass-primary p-4 rounded-lg shadow-[0_0_15px_rgba(247,147,26,0.3)]">
                         <p className="text-ass-primary font-mono text-sm md:text-base break-all">
-                            CA: 0000000000000000000000000000000000000000
+                            CA: H7oNrjmLRjeUm1fZpsVaDDGqSzsr5JPXgsj55dA1pump
                         </p>
                     </div>
                     <p className="text-gray-500 text-xs mt-2 uppercase tracking-wider">Contract Address</p>
