@@ -1,13 +1,13 @@
 @import "tailwindcss";
 
 @theme {
-  /* Lightning Theme Variables */
-  --color-ass-primary: #9d4edd;
-  /* Electric Purple */
-  --color-ass-accent: #ffea00;
-  /* Lightning Yellow */
-  --color-ass-dark: #0f0014;
-  /* Deep Purple/Black */
+  /* Bitcoin Theme Variables */
+  --color-ass-primary: #F7931A;
+  /* Bitcoin Orange */
+  --color-ass-accent: #FFFFFF;
+  /* White */
+  --color-ass-dark: #000000;
+  /* Pure Black */
 
   --animate-shake: shake 0.5s cubic-bezier(.36, .07, .19, .97) both;
   --animate-bounce-custom: bounce 2s infinite;
