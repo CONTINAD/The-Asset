@@ -1,0 +1,24 @@
+export default function Footer() {
+    return (
+        <footer className="py-8 bg-black text-center border-t border-gray-900">
+            <div className="container mx-auto px-4">
+                <div className="flex justify-center gap-8 mb-8">
+                    {/* Social Placeholders */}
+                    <a href="#" className="w-12 h-12 flex items-center justify-center rounded-full bg-gray-800 hover:bg-ass-orange hover:text-black transition-colors">
+                        <span className="font-bold">X</span>
+                    </a>
+                    <a href="#" className="w-12 h-12 flex items-center justify-center rounded-full bg-gray-800 hover:bg-ass-orange hover:text-black transition-colors">
+                        <span className="font-bold">TG</span>
+                    </a>
+                    <a href="#" className="w-12 h-12 flex items-center justify-center rounded-full bg-gray-800 hover:bg-ass-orange hover:text-black transition-colors">
+                        <span className="font-bold">DS</span>
+                    </a>
+                </div>
+                <p className="text-gray-600 font-mono text-sm">
+                    © {new Date().getFullYear()} $AssAsset. All rights reserved. <br />
+                    <span className="text-[10px] opacity-50">Not financial advice. Don't be an idiot.</span>
+                </p>
+            </div>
+        </footer>
+    );
+}
