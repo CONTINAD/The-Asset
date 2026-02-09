@@ -23,7 +23,7 @@ export default function BuyBackBot() {
                             <p className="text-xl text-gray-300 font-mono">
                                 We don't just talk. We <span className="text-ass-primary font-bold">BURN</span> tokens.
                                 <br />
-                                Our custom bot automatically buys back $ASS every hour and sends it straight to the void.
+                                Our custom bot automatically buys back $Asset every hour and sends it straight to the void.
                             </p>
                             <div className="inline-block bg-ass-primary text-black font-bold px-4 py-2 rounded transform -skew-x-12 shadow-[0_0_15px_rgba(247,147,26,0.5)]">
                                 SUPPLY REDUCING FOREVER

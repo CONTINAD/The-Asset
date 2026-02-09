@@ -3,7 +3,7 @@ export default function Tokenomics() {
         { label: "Total Supply", value: "1,000,000,000" },
         { label: "Tax", value: "0/0" },
         { label: "Liquidity", value: "Burnt" },
-        { label: "Ticker", value: "$ASS" },
+        { label: "Ticker", value: "$Asset" },
     ];
 
     return (

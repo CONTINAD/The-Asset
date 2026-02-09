@@ -15,7 +15,7 @@ export default function Hero() {
                     alt="$AssAsset Logo"
                     className="w-64 h-64 md:w-96 md:h-96 object-contain drop-shadow-[0_0_50px_rgba(247,147,26,0.8)] mx-auto relative z-10"
                     onError={(e) => {
-                        e.currentTarget.src = "https://placehold.co/400x400/F7931A/ffffff?text=$ASS"; // Fallback
+                        e.currentTarget.src = "https://placehold.co/400x400/F7931A/ffffff?text=$Asset"; // Fallback
                     }}
                 />
                 {/* Glow behind logo */}
@@ -47,7 +47,7 @@ export default function Hero() {
                 <div className="animate-scroll inline-block">
                     {[...Array(20)].map((_, i) => (
                         <span key={i} className="text-black font-black text-2xl mx-8 uppercase">
-                            $ASS TO THE MOON 🚀
+                            $Asset TO THE MOON 🚀
                         </span>
                     ))}
                 </div>

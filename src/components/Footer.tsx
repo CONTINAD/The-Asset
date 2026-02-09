@@ -4,7 +4,7 @@ export default function Footer() {
     return (
         <footer className="py-8 bg-black text-center border-t border-ass-primary/30">
             <div className="container mx-auto px-4">
-                <img src={logo} alt="$ASS" className="w-16 h-16 mx-auto mb-6 opacity-50 hover:opacity-100 transition-opacity duration-300 drop-shadow-[0_0_10px_rgba(247,147,26,0.6)]" />
+                <img src={logo} alt="$Asset" className="w-16 h-16 mx-auto mb-6 opacity-50 hover:opacity-100 transition-opacity duration-300 drop-shadow-[0_0_10px_rgba(247,147,26,0.6)]" />
 
                 <div className="flex justify-center gap-8 mb-8">
                     {/* Social Placeholders */}
